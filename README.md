@@ -1,4 +1,4 @@
-# KmanSonoff - Alternative firmware for Sonoff Switches
+# KmanSonoff - My changes firmware for Sonoff Switches
 
 ![](images/sonoff.png "Sonoff Range")
 
