@@ -65,14 +65,16 @@ int lastRelayState;
 long rssi;
 unsigned long TTasks1;
 unsigned long count = 0;
+
 #ifdef TEMP
 // Setup a oneWire instance to communicate with any OneWire devices 
 // (not just Maxim/Dallas temperature ICs)
-OneWire oneWire(ONE_WIRE_BUS);
+OneWire oneWire(OPT_PIN);
  
 // Pass our oneWire reference to Dallas Temperature.
 DallasTemperature sensors(&oneWire);
 #endif
+
 extern "C" { 
   #include "user_interface.h" 
 }

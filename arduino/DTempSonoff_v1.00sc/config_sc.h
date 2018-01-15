@@ -27,8 +27,8 @@ int QOS = 0;                                                  // QOS level for a
 #define MQTT_USER        "mqtt_user"                          // mqtt username
 #define MQTT_PASS        "mqtt_pass"                          // mqtt password
 
-#define WIFI_SSID        "wifissid"                           // Your WiFi ssid
-#define WIFI_PASS        "wifipass"                           // Your WiFi password
+#define WIFI_SSID        "Base"                           // Your WiFi ssid
+#define WIFI_PASS        "base alpha"                           // Your WiFi password
 /*
   ===========================================================================================================================================
 */
