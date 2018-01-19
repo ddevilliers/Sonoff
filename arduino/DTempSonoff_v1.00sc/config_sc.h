@@ -19,7 +19,7 @@ int QOS = 0;                                                  // QOS level for a
 #define ORIG                                                  // ORIG or TH
                                                               // ORIG for Basic / Original Sonoff, TH for TH Series
 
-#define DHTTYPE          DHT22                                // Set DHT Type to 11 or 22. N/A if using WS or NONE.
+
 
 #define MQTT_SERVER      "192.168.0.100"                      // Your mqtt server ip address
 #define MQTT_PORT        1883                                 // Your mqtt port
